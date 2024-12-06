@@ -75,3 +75,39 @@ nav{
     background-color: bisque;
     color: brown;
 }
+
+}
+.sidebyside {
+    display: flex;
+    flex-direction: row;
+}
+.alldrinks {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 99%;
+    justify-content: space-evenly;
+}
+
+.drinkdetails {
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+
+    align-items: center;
+}
+
+.drinkimg {
+    width: 99%;
+}
+.cookiename {
+    font-size: x-large;
+    width: 99%;
+    text-align: center;
+}
+
+.drinkprice {
+    font-size: x-large;
+    width: 99%;
+    text-align: center;
+}
